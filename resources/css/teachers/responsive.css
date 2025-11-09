@@ -1,0 +1,34 @@
+@media (max-width: 48rem) {
+    .teachers__container {
+        padding: 3rem 1.25rem 2.5rem;
+        gap: 1.5rem;
+    }
+
+    .teachers__title {
+        font-size: 2rem;
+    }
+
+    .teachers__card {
+        padding: 1.75rem 1.5rem;
+    }
+
+    .teachers__card-actions {
+        flex-direction: column;
+    }
+
+    .teachers__card-button {
+        width: 100%;
+    }
+
+    .teachers__toolbar {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .teachers__toolbar-button {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+

@@ -1,0 +1,18 @@
+.welcome__header {
+    padding: 4rem 1.5rem;
+    text-align: center;
+}
+
+.welcome__title {
+    margin: 0 0 1rem;
+    font-size: 2.5rem;
+}
+
+.welcome__description {
+    margin: 0 auto;
+    max-width: 40rem;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+

@@ -1,0 +1,18 @@
+.students__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.75rem;
+}
+
+.students__empty {
+    margin: 2rem 0 0;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: #ffffff;
+    border: 1px solid rgba(11, 59, 160, 0.12);
+    color: #38507a;
+    text-align: center;
+    font-size: 1rem;
+}
+
+

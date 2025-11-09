@@ -1,0 +1,37 @@
+.teachers__toolbar-button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.65rem 1.5rem;
+    border-radius: 999px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+}
+
+.teachers__toolbar-button--primary {
+    background-color: #b43f12;
+    color: #ffffff;
+    box-shadow: 0 0.9rem 1.8rem rgba(180, 63, 18, 0.18);
+}
+
+.teachers__toolbar-button--primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 1.1rem 2.2rem rgba(180, 63, 18, 0.22);
+}
+
+.teachers__toolbar-button--secondary {
+    background-color: #ffffff;
+    color: #b43f12;
+    border: 1px solid rgba(180, 63, 18, 0.24);
+    box-shadow: 0 0.75rem 1.5rem rgba(180, 63, 18, 0.08);
+}
+
+.teachers__toolbar-button--secondary:hover {
+    transform: translateY(-2px);
+    background-color: rgba(180, 63, 18, 0.08);
+}
+
+

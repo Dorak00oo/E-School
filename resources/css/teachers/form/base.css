@@ -1,0 +1,29 @@
+body.teacher-form {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #fff7f3;
+    color: #201019;
+}
+
+.teacher-form__container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 38rem;
+    padding: 4rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.teacher-form__card {
+    background-color: #ffffff;
+    border-radius: 1.25rem;
+    border: 1px solid rgba(180, 63, 18, 0.14);
+    box-shadow: 0 1.2rem 3rem rgba(180, 63, 18, 0.1);
+    padding: 2.25rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
+}
+

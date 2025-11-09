@@ -1,0 +1,22 @@
+.teacher-form__header {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    text-align: center;
+}
+
+.teacher-form__title {
+    margin: 0;
+    font-size: 2rem;
+    color: #b43f12;
+}
+
+.teacher-form__description {
+    margin: 0 auto;
+    max-width: 28rem;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #6f3f37;
+}
+
+

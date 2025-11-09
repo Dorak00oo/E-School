@@ -1,0 +1,40 @@
+.teacher-form__actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.teacher-form__button {
+    padding: 0.8rem 1.8rem;
+    border-radius: 999px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+}
+
+.teacher-form__button--primary {
+    background-color: #b43f12;
+    color: #ffffff;
+    box-shadow: 0 1rem 2rem rgba(180, 63, 18, 0.22);
+}
+
+.teacher-form__button--primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 1.2rem 2.4rem rgba(180, 63, 18, 0.26);
+}
+
+.teacher-form__button--ghost {
+    background-color: #ffffff;
+    color: #b43f12;
+    border: 1px solid rgba(180, 63, 18, 0.3);
+}
+
+.teacher-form__button--ghost:hover {
+    transform: translateY(-2px);
+    background-color: rgba(180, 63, 18, 0.1);
+}
+
+

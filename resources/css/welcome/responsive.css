@@ -1,0 +1,15 @@
+@media (max-width: 40rem) {
+    .welcome__title {
+        font-size: 2rem;
+    }
+
+    .welcome__header {
+        padding: 3rem 1.25rem;
+    }
+
+    .welcome__options {
+        padding: 0 1.25rem 3rem;
+    }
+}
+
+

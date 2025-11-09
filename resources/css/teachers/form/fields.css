@@ -1,0 +1,45 @@
+.teacher-form__group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.teacher-form__form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.teacher-form__label {
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: #b43f12;
+}
+
+.teacher-form__input {
+    padding: 0.85rem 1rem;
+    border-radius: 0.75rem;
+    border: 1px solid rgba(180, 63, 18, 0.26);
+    background-color: #fffafa;
+    font-size: 1rem;
+    color: #201019;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.teacher-form__input:focus {
+    outline: none;
+    border-color: #b43f12;
+    box-shadow: 0 0 0 3px rgba(180, 63, 18, 0.2);
+}
+
+.teacher-form__hint {
+    font-size: 0.85rem;
+    color: #8c5146;
+}
+
+.teacher-form__error {
+    font-size: 0.85rem;
+    color: #d93025;
+}
+
+

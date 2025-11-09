@@ -1,0 +1,57 @@
+.student-form__toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.student-form__toolbar-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.65rem 1.4rem;
+    border-radius: 999px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: #0b3ba0;
+    background-color: rgba(11, 59, 160, 0.08);
+    border: 1px solid rgba(11, 59, 160, 0.16);
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.student-form__toolbar-link:hover {
+    transform: translateY(-2px);
+    background-color: rgba(11, 59, 160, 0.16);
+}
+
+@media (max-width: 40rem) {
+    .student-form__container {
+        padding: 3rem 1.25rem;
+    }
+
+    .student-form__card {
+        padding: 2rem 1.5rem;
+    }
+
+    .student-form__actions {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .student-form__button {
+        width: 100%;
+    }
+
+    .student-form__toolbar {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .student-form__toolbar-link {
+        width: 100%;
+    }
+}
+
+

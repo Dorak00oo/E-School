@@ -1,0 +1,40 @@
+.student-form__actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.student-form__button {
+    padding: 0.8rem 1.8rem;
+    border-radius: 999px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+}
+
+.student-form__button--primary {
+    background-color: #0b3ba0;
+    color: #ffffff;
+    box-shadow: 0 1rem 2rem rgba(11, 59, 160, 0.2);
+}
+
+.student-form__button--primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 1.2rem 2.4rem rgba(11, 59, 160, 0.24);
+}
+
+.student-form__button--ghost {
+    background-color: #ffffff;
+    color: #0b3ba0;
+    border: 1px solid rgba(11, 59, 160, 0.26);
+}
+
+.student-form__button--ghost:hover {
+    transform: translateY(-2px);
+    background-color: rgba(11, 59, 160, 0.08);
+}
+
+

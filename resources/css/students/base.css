@@ -1,0 +1,35 @@
+.students {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #f3f5ff;
+    color: #0d1b3d;
+}
+
+.students__container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 66rem;
+    padding: 4rem 1.5rem 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.students__toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.students__alert {
+    padding: 1rem 1.5rem;
+    border-radius: 0.9rem;
+    background-color: rgba(11, 59, 160, 0.08);
+    border: 1px solid rgba(11, 59, 160, 0.18);
+    color: #0b3ba0;
+    font-size: 0.95rem;
+}
+
+

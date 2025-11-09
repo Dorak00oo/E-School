@@ -1,0 +1,35 @@
+.teachers {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff7f3;
+    color: #201019;
+}
+
+.teachers__container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 66rem;
+    padding: 4rem 1.5rem 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.teachers__toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.teachers__alert {
+    padding: 1rem 1.5rem;
+    border-radius: 0.9rem;
+    background-color: rgba(180, 63, 18, 0.1);
+    border: 1px solid rgba(180, 63, 18, 0.2);
+    color: #b43f12;
+    font-size: 0.95rem;
+}
+
+

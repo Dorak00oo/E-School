@@ -1,0 +1,26 @@
+.student-form__status {
+    padding: 0.9rem 1.4rem;
+    border-radius: 0.85rem;
+    background-color: rgba(11, 59, 160, 0.1);
+    border: 1px solid rgba(11, 59, 160, 0.2);
+    color: #0b3ba0;
+    font-size: 0.95rem;
+}
+
+.student-form__errors {
+    padding: 0.9rem 1.4rem;
+    border-radius: 0.85rem;
+    background-color: rgba(217, 48, 37, 0.08);
+    border: 1px solid rgba(217, 48, 37, 0.2);
+    color: #b2170f;
+    font-size: 0.95rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.student-form__errors-item {
+    margin: 0;
+}
+
+
